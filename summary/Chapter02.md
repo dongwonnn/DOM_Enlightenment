@@ -3,7 +3,7 @@
 ### 2-1. document 노드 개요
 
 - document로부터 상속된 HTMLDocument 생성자는 DOCUMENT_NODE를 생성한다. (window.document)
-  즉, window.document는 HTMLDocument가 생성자 함수가 생성하고 이 노드는 DOCUMENT_NODE 개체다.
+  즉, **window.document는 HTMLDocument가 생성자 함수가 생성하고 이 노드는 DOCUMENT_NODE 개체**다.
   ```js
   console.log(window.document.constructor); // HTMLDocument
   console.log(window.document.nodeType); // 9. (DOCUMENT_NODE)
@@ -59,7 +59,7 @@
 
 ### 2-7. 문서 내에서 포커스를 가지고 있거나 활성 상태인 노드에 대한 참조를 얻기
 
-- document.activeElement를 사용하면 문서 내에서 포커스를 가지고 있거나 활성 상태인 노드에 대한 참조를 바로 얻을 수 있다.
+- **document.activeElement를 사용하면 문서 내에서 포커스를 가지고 있거나 활성 상태인 노드에 대한 참조를 바로 얻을 수 있다.**
 - 페이지 로드 시에 문서의 포커스를 < textarea> 노드로 설정한 후, activeElement 속성을 사용하여 해당 노드에 대한 참조를 얻을 수 있다.
 
   ```js
