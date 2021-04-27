@@ -1,6 +1,6 @@
-# 3장. Element 노드 선택
+# 4장. Element 노드 선택
 
-### 3-1. 특정 Element 노드 선택하기
+### 4-1. 특정 Element 노드 선택하기
 
 단일 element 노드에 대한 참조를 얻는 흔한 메서드
 
